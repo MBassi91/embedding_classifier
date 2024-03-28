@@ -1,0 +1,53 @@
+# .gitignore
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.log
+*.sql
+*.sqlite
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IntelliJ related
+*.iml
+*.idea
+
+# The .vscode folder should not be checked into Git
+.vscode/
+.vs/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Ignore Jupyter Notebook checkpoint files
+.ipynb_checkpoints
+
+# Google app engine
+lib/
+*.pyc
+
+# Private keys
+*.json
+*.pem
+*.key
+*.pub
