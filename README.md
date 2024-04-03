@@ -15,7 +15,7 @@ To install the required dependencies, run:
    - Run the `embeddings.py` script to fetch embeddings for your text data.
 
 3. Train and evaluate classifiers:
-   - Open the `classifier.ipynb` notebook.
+   - Open the `how_to_use.ipynb` notebook.
    - Update the dataset file path in the notebook to point to your dataset.
    - Run the notebook cells to train and evaluate different classifiers (logistic regression, random forest, SVM).
    - The notebook will select the best classifier based on the F1-score.
@@ -25,7 +25,7 @@ To install the required dependencies, run:
    - To use the trained classifier in your own code, load the saved model using the `TextClassifier.load_model()` method.
 
 5. Assess the need for more data:
-   - The `classifier.ipynb` notebook includes a section to plot the learning curve for the best classifier.
+   - The `how_to_use.ipynb` notebook includes a section to plot the learning curve for the best classifier.
    - Analyze the learning curve plot to determine if the model would benefit from more training data.
    - If the model is overfitting (high training score, low cross-validation score), consider collecting more data to improve generalization.
 
